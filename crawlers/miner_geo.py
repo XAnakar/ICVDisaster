@@ -3,16 +3,16 @@ import sys, csv, json, time
 
 
 
-latitude    =   14.457812	  #centro exato 'lat'  Island Hawaii - don't forget this
-longitude   =  -90.937007       #centro exato 'long' Island Hawaii - don't forget this
-num_results =   50000000           #número de resultados
-max_range   =   200 #Km²
+latitude    =   0	  
+longitude   =   0       
+num_results =   0           
+max_range   =   0 #Km²
 
 
-twitter = Twitter(auth = OAuth('191826083-UghNS3YwFlUTmnGfyimRBwMmuVdRtRHMCUFfAI7w',
-            'KyP9MlMpj0MbO3IS1UsdTpEPpBQGMlBGXyX74FqKeWhaL',
-            'XLRkRlb7G2seBeo3cvTJPhNCL',
-            'sUQr6Jes8MOMRBXarlrSEclKUjdcvz1XwVuFSawujNfmkzaHcw'))
+twitter = Twitter(auth = OAuth('chave',
+            'chave',
+            'chave',
+            'chave'))
 
 Saida = open("DataSet.json","a")
 

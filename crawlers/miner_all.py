@@ -3,11 +3,11 @@ from tweepy import OAuthHandler
 from tweepy import Stream
 import json
 
-#-------------VARIAVEIS PRO CALCULO--------
-access_token = 	"1613384892-spDqJHqobIUfPPSzpYd2EsPM1RoyK9iQfXmf7w1"
-access_token_secret = "RaXk2WZnEejaW3jhBAjHIJJyBKzW1JcSNVugMOjEEzukW"
-consumer_key = "y6ThN6OR7zNJXIg3a1MFsqoj3"
-consumer_secret = "bk80NUmIBmgDNcx128J07eFlvXj4MHbc2AU10sFhh4eyljTWk1"
+
+access_token = 	"chave"
+access_token_secret = "chave"
+consumer_key = "chave"
+consumer_secret = "chave"
 tweets_file = open("DATA.json", "a")
 
 class StdOutListener(StreamListener):
@@ -29,5 +29,5 @@ if __name__ == '__main__':
     auth = OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
     stream = Stream(auth, l)
-    stream.filter(track=[ 'amor']) #Aceita até 400 Tags 
+    stream.filter(track=[ 'keywords'])
 

@@ -1,10 +1,10 @@
 import json
 
-struct = [(json.loads(Index)['id']) for Index in open("DataSet_Hawaii.json", "r")]
+struct = [(json.loads(Index)['id']) for Index in open("entrada.json", "r")]
 
-Data  = open("DataSet_Hawaii.json", "r")
+Data  = open("entrada", "r")
 
-Saida = open("Saida.json", "w")
+Saida = open("saida.json", "w")
 
 Indice = 0
 obj = []
