@@ -1,3 +1,7 @@
+#Descrição dos atributos e importância
+
+
+
 | | | | | | |
 | --- | --- | --- | --- | --- | --- |
 | **id_str** | **screen_name** | **created_at** | **latitude** | **longitude** | **text** |
