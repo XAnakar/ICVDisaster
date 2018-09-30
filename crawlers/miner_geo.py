@@ -3,17 +3,17 @@ import sys, csv, json, time
 
 
 
-latitude    =   -0.893053	  
-longitude   =  119.881364      
-num_results =   50000000         
-max_range   =   150 #Km²
+latitude    =   0	  
+longitude   =   0      
+num_results =   0         
+max_range   =   0 #Km²
 
 
 
-access_token = 	'191826083-PNuKyQanN6pkOWbYtAo3vGFOxFHgxIf6C86Ds4RY'
-access_token_secret = 'EL3jqr0L7B6yvZBDdzRN7rQhlFHXbrpwQTYcM8cg0DJ1A'
-consumer_key = 'Aduzlaro6x41x2KeQzSaT8rT4'
-consumer_secret = 'gX9U2HKaEo8xeJyURTI9NP73Q2BHswTbGpOggv5jUbWiRiDJlE'
+access_token = 	'chave'
+access_token_secret = 'chave'
+consumer_key = 'chave'
+consumer_secret = 'chave'
 
 twitter = Twitter(auth = OAuth(access_token, access_token_secret,consumer_key, consumer_secret))
 
@@ -35,9 +35,7 @@ while result_count <  num_results:
                 Id     = result['user']['id']
                 Data   = result['created_at']
                 #Tratamento de texto msg
-                Mensagem  =  result["text"].replace("\n","").replace("https://t.co/","") #substitui "\n" por ""
-                Mensagem  =  Mensagem[0:len(Mensagem) - 12]
-                #FimTratamento
+                Mensagem  =  result["text"].replace("\n","")
 
                 Name   = result['user']['screen_name']
                 Coords = result['geo' ]['coordinates']
@@ -52,7 +50,7 @@ while result_count <  num_results:
                     "geo": str(Coords)
                 })
                 
-                Saida.write(str(Insert) + "\n")
+                Saida.write(str(json.dumps(result)) + "\n")
                 result_count += 1
             last_id = result["id"]
     except:
