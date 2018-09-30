@@ -1,4 +1,4 @@
-| | | | | | |
+
 | --- | --- | --- | --- | --- | --- |
 | **id_str** | **screen_name** | **created_at** | **latitude** | **longitude** | **text** |
 | 42138551 | mlkmus | Wed May 09 14:56:49 +0000 2018 | 20.98590154 | -156.66873096 | Happy #WhaleWednesday - Humpback Whale Fluke taken from aboard the |
