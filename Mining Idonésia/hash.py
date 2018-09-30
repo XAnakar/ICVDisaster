@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 import json
 
 
-
-
 def get_hashtags(tweet):
 
     entities = tweet.get('entities', {})
@@ -31,7 +29,7 @@ if __name__ == "__main__":
             hashtags_in_tweet = get_hashtags(tweet)
             hashtags.update(hashtags_in_tweet)
         
-        for tag, count in hashtags.most_common(10):
+        for tag, count in hashtags.most_common(5):
 
             objects.append(tag)
             performance.append(count)
