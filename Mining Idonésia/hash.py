@@ -3,6 +3,8 @@ import matplotlib.pyplot as plt; plt.rcdefaults()
 import numpy as np
 import matplotlib.pyplot as plt
 import json
+import chardet
+
 
 
 def get_hashtags(tweet):
@@ -14,10 +16,6 @@ def get_hashtags(tweet):
 
 objects = []
 performance = []
-
-
-import chardet
-
 
 if __name__ == "__main__":
 
@@ -42,5 +40,4 @@ plt.bar(y_pos, performance, align='center', alpha=0.5)
 plt.xticks(y_pos, objects)
 plt.ylabel('Quantidade')
 plt.title('hashtags')
- 
 plt.show()
