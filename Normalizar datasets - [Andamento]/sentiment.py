@@ -14,13 +14,21 @@ auth.set_access_token(access_token,access_token_secret)
 
 api = tweepy.API(auth)
 
-tweets = api.search('Trump')
+name = "jennybrucenyc"
+tweetCount = 10
+results = api.user_timeline(id=name, count=tweetCount)
 
-for tweet in tweets:
+for tweet in results:
+   print (tweet.geo)
+
+'''
+tweets = api.search('Trump')
+'''
+for tweet in results:
     frase = TextBlob(tweet.text)
 
     if frase.detect_language() != 'en':
         traducao = TextBlob(str(frase.translate(to='en')))
-        print('Tweet: {0} - Sentimento: {1}'.format(tweet.text, traducao.sentiment))
+        print(tweet.text," ->",traducao.sentiment)
     else:
-        print('Tweet: {0} - Sentimento: {1}'.format(tweet.text, frase.sentiment))
+        print(tweet.text," ->",frase.sentiment)

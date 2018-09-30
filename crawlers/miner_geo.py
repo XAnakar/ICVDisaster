@@ -3,16 +3,20 @@ import sys, csv, json, time
 
 
 
-latitude    =   0	  
-longitude   =   0       
-num_results =   0           
-max_range   =   0 #Km²
+latitude    =   -0.893053	  
+longitude   =  119.881364      
+num_results =   50000000         
+max_range   =   150 #Km²
 
 
-twitter = Twitter(auth = OAuth('chave',
-            'chave',
-            'chave',
-            'chave'))
+
+access_token = 	'191826083-PNuKyQanN6pkOWbYtAo3vGFOxFHgxIf6C86Ds4RY'
+access_token_secret = 'EL3jqr0L7B6yvZBDdzRN7rQhlFHXbrpwQTYcM8cg0DJ1A'
+consumer_key = 'Aduzlaro6x41x2KeQzSaT8rT4'
+consumer_secret = 'gX9U2HKaEo8xeJyURTI9NP73Q2BHswTbGpOggv5jUbWiRiDJlE'
+
+twitter = Twitter(auth = OAuth(access_token, access_token_secret,consumer_key, consumer_secret))
+
 
 Saida = open("DataSet.json","a")
 
