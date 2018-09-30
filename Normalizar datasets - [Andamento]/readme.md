@@ -9,6 +9,10 @@
 - longitude
 - text
 
+### Caso de uso
+
+
+## Visualização abreviada
 
 | | | | | | |
 | --- | --- | --- | --- | --- | --- |
