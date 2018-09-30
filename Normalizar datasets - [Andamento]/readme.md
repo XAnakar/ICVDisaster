@@ -1,5 +1,11 @@
-#Descrição dos atributos e importância
+### Descrição dos atributos
 
+- id_str
+- screen_name
+- created_at
+- latitude
+- longitude
+- text
 
 
 | | | | | | |
