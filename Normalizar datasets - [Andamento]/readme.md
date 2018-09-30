@@ -27,5 +27,4 @@
 | 322982808,vlohvitstyler,Wed May 09 11:24:23 +0000 2018,19.4735, -154.92,Hurts when you just gotta stare all over social media wishing you                | 
 | 322982808,vlohvitstyler,Wed May 09 11:24:04 +0000 2018,19.4735, -154.92,😂😂😂| Original post: kidbranzhawaii | Source: CBS. | #hawaii #viral            | 
 | 2672002140,NERDWatchNation,Wed May 09 11:22:04 +0000 2018,20.88564, -156.47766,___roncat___ does it again! Thank you for creating a beautiful piece      | 
-| 362523555,QuakesToday,Wed May 09 11:05:05 +0000 2018,19.357, -155.03,"2.0 magnitude #earthquake. 17 km from Leilani Estates, #HI, United State"          | 
-| 493321524,Electric_Surfer,Wed May 09 10:59:20 +0000 2018,19.33586721, -155.21707535,"🤙, If Surfers Aren't Gonna Save The 🌎 Who On 🌏 Will?! @ Surfers" | 
+| 362523555,QuakesToday,Wed May 09 11:05:05 +0000 2018,19.357, -155.03,"2.0 magnitude #earthquake. 17 km from Leilani Estates, #HI, United State"          |
