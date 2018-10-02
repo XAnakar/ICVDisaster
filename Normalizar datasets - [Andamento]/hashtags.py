@@ -5,8 +5,6 @@ import matplotlib.pyplot as plt
 import json
 
 
-
-
 def get_hashtags(tweet):
 
     entities = tweet.get('entities', {})
