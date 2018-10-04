@@ -1,15 +1,20 @@
 
 from preprocess import preprocess #Faz manter toda @  ou # ligado à um nome
 from collections import Counter
-import string, operator, json
+import string, operator, json, chardet
+import matplotlib.pyplot as plt; plt.rcdefaults()
+import numpy as np
+import matplotlib.pyplot as plt
 
 '''
 #pre-processing exemplo
 tweet = 'RT @marcobonzanini: just an example! :D http://example.com #NLP'
 print(preprocess(tweet))
 '''
+objects = []
+performance = []
 
-with open('DATA.json', 'r') as f:
+with open('data_new.json', 'r') as f:
     
     count_all = Counter()
     
@@ -24,10 +29,22 @@ with open('DATA.json', 'r') as f:
         )
         
         terms_hash = [
-            term for term in preprocess(tweet['text']) 
+            term.lower() for term in preprocess(tweet['text']) 
             if term.startswith('#')
         ]
     
         count_all.update(terms_hash)
 
-    print(count_all.most_common(100))
+    for tag, count in count_all.most_common(10):
+
+        objects.append(tag)
+        performance.append(count)
+        
+
+y_pos = np.arange(len(objects))
+ 
+plt.bar(y_pos, performance, align='center', alpha=0.5)
+plt.xticks(y_pos, objects)
+plt.ylabel('Quantidade')
+plt.title('hashtags')
+plt.show()
