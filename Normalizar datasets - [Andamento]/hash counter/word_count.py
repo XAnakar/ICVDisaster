@@ -9,7 +9,7 @@ tweet = 'RT @marcobonzanini: just an example! :D http://example.com #NLP'
 print(preprocess(tweet))
 '''
 
-with open('data_new.json', 'r') as f:
+with open('DATA.json', 'r') as f:
     
     count_all = Counter()
     
@@ -18,7 +18,9 @@ with open('data_new.json', 'r') as f:
         tweet = json.loads(line)
 
         terms_single = set(
-            [term for term in preprocess(tweet['text'])]
+            [
+                term for term in preprocess(tweet['text'])
+            ]
         )
         
         terms_hash = [
