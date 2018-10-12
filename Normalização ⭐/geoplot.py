@@ -1,7 +1,6 @@
 from geopy.geocoders import Nominatim  
 import gmplot, csv
 
-geolocator = Nominatim()
 
 # Go through all tweets and add locations to 'coordinates' dictionary
 coordinates = {'latitude': [], 'longitude': []}  
@@ -17,7 +16,7 @@ gmap = gmplot.GoogleMapPlotter(30, 0, 3)
 
 
 # Insert points on the map passing a list of latitudes and longitudes
-gmap.heatmap(coordinates['latitude'], coordinates['longitude'], radius=20)
+gmap.heatmap(coordinates['latitude'], coordinates['longitude'], radius=50)
 
 # Save the map to html file
 gmap.draw("geoplot.html")  
