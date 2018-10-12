@@ -1,22 +1,30 @@
 import csv, json
+from time import sleep
+from bar import printProgressBar
 
 SaidaClusters = open("Clusters.json","w")
-dataSet = csv.DictReader(open("names.csv","r"))
-Indentificares = []
-for data in dataSet:
-    Indentificares.append(data['id'])
+
+csv_file = open("formated.csv","r")
+
+Indentificares = [
+    data['id_str'] for data in csv.DictReader(
+        csv_file
+    )
+]
 
 geos = []
 clusters = {}
 
 for index in set(Indentificares):
+   
     counts = 0
-    for data in csv.DictReader(open("names.csv","r")):
-        if data['id'] == index:
-            geos.append([data['latitude'],data['longitude']])
+
+    for data in csv.DictReader(open("formated.csv","r")):
+        if data['id_str'] == str(index):
+            geos.append([data['created_at'], data['latitude'],data['longitude']])
             counts += 1
-    Insert = json.dumps({"id":str(index),"geos":geos,"count":counts})
+    Insert = json.dumps({"id":str(index), "geos":geos, "count":counts})
     SaidaClusters.write(str(Insert)+"\n")
-    print("- ")
     geos = []
+
 print("Clusterização Terminada!")
