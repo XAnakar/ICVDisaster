@@ -1,0 +1,42 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2018-05-09T23:26:27.790Z,44.2726667,-114.5591667,19.24,2.73,ml,30,107,0.718,0.33,mb,mb80292774,2018-05-09T23:48:02.690Z,"36km SW of Challis, Idaho",earthquake,1.56,4.01,0.252,13,reviewed,mb,mb
+2018-05-09T21:53:27.723Z,62.0115,-151.0267,60.9,2.8,ml,,,,0.68,ak,ak19400404,2018-05-09T22:19:27.040Z,"59km WNW of Willow, Alaska",earthquake,,0.5,,,automatic,ak,ak
+2018-05-09T21:26:00.310Z,-6.2866,104.9234,60.42,5.3,mww,,53,2.738,1.12,us,us1000e1mn,2018-05-09T21:43:31.040Z,"79km SSW of Padangcermin, Indonesia",earthquake,7.3,5.8,0.071,19,reviewed,us,us
+2018-05-09T21:07:47.770Z,17.5812,-83.3705,10,4.2,mb,,66,5.136,1.4,us,us1000e1m1,2018-05-09T21:46:17.040Z,"62km ENE of Great Swan Island, Honduras",earthquake,2.5,2,0.166,10,reviewed,us,us
+2018-05-09T21:02:41.570Z,13.9498,145.7448,92.19,5.3,mb,,57,0.923,1,us,us1000e1lx,2018-05-09T23:39:18.724Z,"62km ESE of Rota, Northern Mariana Islands",earthquake,6,5.8,0.033,299,reviewed,us,us
+2018-05-09T19:15:06.550Z,19.4308333,-155.2655,0.01,2.52,ml,15,138,0.004266,0.07,hv,hv70134986,2018-05-09T19:47:10.292Z,"2km W of Volcano, Hawaii",earthquake,0.23,0.11,0.179,5,reviewed,hv,hv
+2018-05-09T18:37:37.970Z,19.428,-155.2723333,0.11,2.85,ml,11,106,0.004485,0.08,hv,hv70134911,2018-05-09T19:24:39.839Z,"3km W of Volcano, Hawaii",earthquake,0.25,0.14,0.165,9,reviewed,hv,hv
+2018-05-09T18:37:21.900Z,19.3968334,-155.260498,-0.22,2.8,ml,8,145,0.005408,0.11,hv,hv70134906,2018-05-09T19:30:06.529Z,"4km SSW of Volcano, Hawaii",earthquake,0.2,0.39,2.6,10,automatic,hv,hv
+2018-05-09T18:34:01.390Z,19.4265003,-155.2716675,0.28,2.85,ml,39,45,0.003805,0.17,hv,hv70134901,2018-05-09T18:45:02.661Z,"3km W of Volcano, Hawaii",earthquake,0.24,0.18,2.96,30,automatic,hv,hv
+2018-05-09T18:25:49.260Z,19.4016666,-155.2825012,0.12,2.92,ml,22,69,0.01042,0.11,hv,hv70134881,2018-05-09T18:40:18.319Z,"5km SW of Volcano, Hawaii",earthquake,0.14,0.14,0.41,13,automatic,hv,hv
+2018-05-09T17:03:41.150Z,33.5196667,-116.5756667,10.62,2.84,ml,121,24,0.03301,0.18,ci,ci38169344,2018-05-09T23:09:10.612Z,"10km ESE of Anza, CA",earthquake,0.1,0.15,0.157,163,reviewed,ci,ci
+2018-05-09T17:01:01.910Z,19.433,-154.8945,4.54,2.72,ml,7,231,0.03196,0.08,hv,hv70134706,2018-05-09T20:34:08.330Z,"4km SSE of Leilani Estates, Hawaii",earthquake,1.22,1.11,0.199,9,reviewed,hv,hv
+2018-05-09T16:25:18.530Z,51.6785,-170.3748,32.23,4,mb,,213,1.18,1.22,us,us1000e1eu,2018-05-09T21:43:36.040Z,"108km SE of Amukta Island, Alaska",earthquake,8.4,10.1,0.054,91,reviewed,us,us
+2018-05-09T16:10:09.550Z,55.0613,-161.206,72.43,3.7,mb,,180,0.508,0.84,us,us1000e1en,2018-05-09T21:36:52.040Z,"54km SW of Sand Point, Alaska",earthquake,8.9,10.5,0.14,13,reviewed,us,us
+2018-05-09T16:01:55.140Z,19.4008331,-155.2626648,0.16,2.46,ml,12,109,0.004092,0.12,hv,hv70134521,2018-05-09T16:07:33.100Z,"4km SW of Volcano, Hawaii",earthquake,0.21,0.26,4.62,3,automatic,hv,hv
+2018-05-09T15:00:17.670Z,52.2767,174.2329,62.43,4.9,mb,,113,3.27,1.05,us,us1000e1dg,2018-05-09T16:15:23.730Z,"50km S of Shemya Island, Alaska",earthquake,9.8,7.2,0.027,418,reviewed,us,us
+2018-05-09T14:31:19.806Z,57.7864,-157.4824,165.6,2.7,ml,,,,0.56,ak,ak19392076,2018-05-09T15:52:25.184Z,"111km SSW of King Salmon, Alaska",earthquake,,0.7,,,reviewed,ak,ak
+2018-05-09T14:11:05.400Z,19.3751667,-154.9888333,6.32,2.51,ml,6,242,0.05998,0.01,hv,hv70134286,2018-05-09T20:36:04.680Z,"12km SW of Leilani Estates, Hawaii",earthquake,1.78,1.76,0.092,8,reviewed,hv,hv
+2018-05-09T13:40:47.730Z,56.0151,-149.8257,10,4,ml,,199,2.264,0.7,us,us1000e1bp,2018-05-09T14:12:56.040Z,"252km SE of Kodiak, Alaska",earthquake,7.1,2,0.056,42,reviewed,us,us
+2018-05-09T13:34:51.280Z,56.0994,-149.9009,10,4,ml,,203,2.182,0.78,us,us1000e1bk,2018-05-09T14:22:08.040Z,"242km SE of Kodiak, Alaska",earthquake,7.6,2,0.053,46,reviewed,us,us
+2018-05-09T12:01:54.150Z,42.6619,-111.4471,4.25,2.6,ml,,100,0.115,0.21,us,us1000e1ay,2018-05-09T18:54:26.960Z,"12km E of Soda Springs, Idaho",earthquake,2.1,5.6,0.062,34,reviewed,us,us
+2018-05-09T10:41:45.750Z,36.9902,71.3687,111.93,6.2,mww,,19,0.586,1.03,us,us1000e19e,2018-05-09T20:35:29.207Z,"36km NW of Ishkashim, Tajikistan",earthquake,6,4.3,0.066,22,reviewed,us,us
+2018-05-09T08:56:33.630Z,19.3980007,-155.2723389,0,2.97,ml,47,37,0.002894,0.33,hv,hv70133741,2018-05-09T09:19:08.756Z,"5km SW of Volcano, Hawaii",earthquake,0.2,0.22,2.48,30,automatic,hv,hv
+2018-05-09T08:07:06.080Z,19.4174995,-155.2608337,1.03,2.47,ml,17,66,0.005459,0.14,hv,hv70133651,2018-05-09T08:12:43.540Z,"2km WSW of Volcano, Hawaii",earthquake,0.19,0.21,0.27,3,automatic,hv,hv
+2018-05-09T07:57:55.250Z,-5.8916,151.7962,10,6,mww,,42,1.728,0.95,us,us1000e17w,2018-05-09T20:46:20.040Z,"177km SSW of Kokopo, Papua New Guinea",earthquake,6.3,1.6,0.071,19,reviewed,us,us
+2018-05-09T07:52:45.300Z,56.0998,-149.9997,19.75,3.6,ml,,209,2.135,0.53,us,us1000e17r,2018-05-09T09:15:06.040Z,"238km SE of Kodiak, Alaska",earthquake,9.6,9.7,0.053,46,reviewed,us,us
+2018-05-09T07:46:22.690Z,55.9372,-149.8768,5,2.9,ml,,,,0.59,ak,ak19384302,2018-05-09T14:48:41.327Z,"257km SE of Kodiak, Alaska",earthquake,,1.6,,,reviewed,ak,ak
+2018-05-09T07:13:10.350Z,31.9471667,-116.2928333,20.08,3.22,ml,36,116,0.2986,0.26,ci,ci38168952,2018-05-09T16:45:59.269Z,"32km ENE of Ensenada, B.C., MX",earthquake,0.37,0.95,0.171,201,reviewed,ci,ci
+2018-05-09T06:53:20.698Z,56.3872,-148.4234,3.4,2.7,ml,,,,0.47,ak,ak19383226,2018-05-09T14:37:47.696Z,"287km ESE of Kodiak, Alaska",earthquake,,2.5,,,reviewed,ak,ak
+2018-05-09T05:04:06.680Z,17.8985,-68.1131,27,2.71,md,5,222,1.0093,0.43,pr,pr2018129002,2018-05-09T08:44:33.978Z,"74km SE of Boca de Yuma, Dominican Republic",earthquake,4.22,27.46,0.26,2,reviewed,pr,pr
+2018-05-09T05:03:48.390Z,-21.7197,-68.444,120.44,4.4,mb,,44,0.745,0.62,us,us1000e161,2018-05-09T05:28:31.040Z,"96km NNE of Calama, Chile",earthquake,6.5,7.3,0.149,13,reviewed,us,us
+2018-05-09T04:09:02.490Z,19.4101658,-155.2656708,1.29,2.81,ml,11,110,0.005793,0.09,hv,hv70133261,2018-05-09T04:15:12.090Z,"3km SW of Volcano, Hawaii",earthquake,0.32,0.32,0.4,3,automatic,hv,hv
+2018-05-09T03:23:29.730Z,33.2229,70.4568,40.86,5.1,mww,,49,1.763,0.9,us,us1000e15a,2018-05-09T18:03:11.579Z,"29km NNW of Bannu, Pakistan",earthquake,7.8,5.8,0.073,18,reviewed,us,us
+2018-05-09T02:43:40.420Z,19.4153328,-154.8486633,5.68,3.24,ml,37,271,0.07479,0.3,hv,hv70133086,2018-05-09T03:04:36.369Z,"9km SE of Leilani Estates, Hawaii",earthquake,1.22,0.77,3.44,19,automatic,hv,hv
+2018-05-09T02:43:24.220Z,19.4018326,-155.2720032,0.52,2.69,ml,11,128,0.006614,0.12,hv,hv70133081,2018-05-09T02:48:58.540Z,"4km SW of Volcano, Hawaii",earthquake,0.23,0.21,2.89,19,automatic,hv,hv
+2018-05-09T02:10:17.840Z,18.7884,-105.4702,10,4.4,mb,,221,4.099,0.63,us,us1000e14n,2018-05-09T02:34:29.040Z,"93km WSW of San Patricio, Mexico",earthquake,11.2,2,0.061,77,reviewed,us,us
+2018-05-09T01:34:26.710Z,19.361,-154.9563333,6.4,2.88,ml,5,218,0.08533,0.06,hv,hv70132946,2018-05-09T05:13:18.040Z,"12km SSW of Leilani Estates, Hawaii",earthquake,1.06,2.09,0.204,16,reviewed,hv,hv
+2018-05-09T01:32:30.670Z,56.2239,-149.4298,19.83,3.7,mb,,178,2.327,0.95,us,us1000e14a,2018-05-09T13:47:19.159Z,"251km SE of Kodiak, Alaska",earthquake,5.5,8.3,0.503,1,reviewed,us,us
+2018-05-09T01:16:27.220Z,18.2123,-67.0888,127,2.94,md,9,170,0.0367,0.14,pr,pr2018129001,2018-05-09T04:45:52.770Z,"5km ENE of Mayaguez, Puerto Rico",earthquake,2.07,0.93,0.29,7,reviewed,pr,pr
+2018-05-09T00:11:04.410Z,19.2941666,-155.2194977,8.48,2.9,ml,48,106,0.01376,0.26,hv,hv70132771,2018-05-09T00:28:05.040Z,"15km S of Volcano, Hawaii",earthquake,0.5,0.44,2.94,18,automatic,hv,hv
+2018-05-09T00:03:21.180Z,19.4125,-65.2598,69,3.29,md,8,330,1.4003,0.18,pr,pr2018129000,2018-05-09T04:45:18.660Z,"122km N of Culebra, Puerto Rico",earthquake,3.87,10.76,0.06,3,reviewed,pr,pr

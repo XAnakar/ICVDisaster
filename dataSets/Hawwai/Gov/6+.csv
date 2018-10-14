@@ -1,0 +1,6 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2018-05-09T10:41:45.750Z,36.9902,71.3687,111.93,6.2,mww,,19,0.586,1.03,us,us1000e19e,2018-05-09T20:35:29.207Z,"36km NW of Ishkashim, Tajikistan",earthquake,6,4.3,0.066,22,reviewed,us,us
+2018-05-09T07:57:55.250Z,-5.8916,151.7962,10,6,mww,,42,1.728,0.95,us,us1000e17w,2018-05-09T20:46:20.040Z,"177km SSW of Kokopo, Papua New Guinea",earthquake,6.3,1.6,0.071,19,reviewed,us,us
+2018-05-05T06:19:04.590Z,14.4969,123.9312,17.87,6.1,mww,,29,7.556,1.05,us,us1000dym9,2018-05-07T02:06:59.172Z,"56km NNW of Pandan, Philippines",earthquake,7.7,4.1,0.071,19,reviewed,us,us
+2018-05-04T22:32:54.370Z,19.3127,-154.9975,2.06,6.9,mww,,212,0.115,1.49,us,us1000dyad,2018-05-09T23:31:09.444Z,"19km SSW of Leilani Estates, Hawaii",earthquake,5.5,3.6,0.056,31,reviewed,hv,us
+2018-05-02T06:32:48.880Z,-24.2596,-111.6536,10,6,mww,,38,3.514,1.33,us,us1000dw7i,2018-05-03T16:59:41.040Z,"Easter Island region",earthquake,9.7,1.7,0.071,19,reviewed,us,us
