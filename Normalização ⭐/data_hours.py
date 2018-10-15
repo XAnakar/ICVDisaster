@@ -1,6 +1,8 @@
 import csv
 
-data = [line['created_at'] for line in csv.DictReader(open("formated.csv"))]
+data = [line['created_at'] for line in csv.DictReader(open("formated.csv", encoding="utf8"))]
 data.sort()
-print("Primeiro Tweet: ", data[0])
-print("Ultimo Tweet: ", data[len(data) - 1])
+
+print("Primeiro Tweet: ", min(data) + "\n" +
+      "Ultimo Tweet: ", max(data)
+)
