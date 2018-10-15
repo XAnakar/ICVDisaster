@@ -2,14 +2,14 @@ from twitter import *
 import sys, csv, json, time
 
  
-latitude    =   29.004037
-longitude   =   -82.612344    
-max_range   =   620 #Km²
+latitude    =   00
+longitude   =   00    
+max_range   =   00 #Km²
 
-access_token        = '829344089829158914-l3r3pDNPOP1o3Ada4ZuqUR6CPd9ZXqe'
-access_token_secret = '97QwhsAsYkFAffPn8lrXuT7yK7XVRUcKdPGYRayJWTIn8'
-consumer_key        = 'tCkkQCZadJqfh4jWUJZYGvCaj'
-consumer_secret     = 'CvazdJkGaTwM053bAwd1h9K822643h4jblj7byRzNYqDoG7EuO'
+access_token        = 'chave'
+access_token_secret = 'chave'
+consumer_key        = 'chave'
+consumer_secret     = 'chave'
 
 
 twitter = Twitter(auth = OAuth(access_token, access_token_secret,consumer_key, consumer_secret))
@@ -25,7 +25,7 @@ while True:
             Data    = result['created_at']
             Name    = result['user']['screen_name']
             
-            print('Usuário: '+ Name +"\n" + Data+"\n")
+            print('Usuário: '+ Name + '\nData:' + Data + '\n')
 
             Saida.write(str(json.dumps(result)) + "\n")
             result_count += 1
