@@ -18,7 +18,7 @@ Saida = open("DATA_SET.json","a")
 
 
 result_count = 0
-last_id =  get_lastId("DATA_SET")
+last_id =  get_Lest_id("DATA_SET")
 
 while True:
     try:
