@@ -1,10 +1,6 @@
+# -*- coding: utf-8 -*-
 
-import json, csv
-
-'''
-with  open('data_new.json') as dataset:
-    text = [json.loads(line)['text'] for line in dataset]
-'''
+import json, csv, sys
 
 saida = csv.writer(open('formated.csv', 'w'))
 fieldnames = ['id_str', 'screen_name', 'created_at','latitude','longitude','text']
@@ -28,7 +24,7 @@ def make_csv():
         data = json.loads(line)
 
         if count_query(data['text']):
-            pass
+            print("Ocorrência!")
         else:
             geo   = data['geo'].replace("[","").replace("]","").split(',') 
             saida.writerow([data['id'], data['nome'], data['data'], geo[0], geo[1], data['text']])
