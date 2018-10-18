@@ -4,7 +4,7 @@
 ### Palavras mais utilizadas
 ![academico](wordcloud_hawaii.png)
 ![academico](hashtags_hawaii.png)
-### Scripts implementados para mineração de Tweets e análise do dados.
+### Scripts implementados para mineração de Tweets e análise dos dados.
                   
 
 
