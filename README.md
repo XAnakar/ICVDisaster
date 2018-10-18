@@ -1,5 +1,6 @@
 ## ICV Disaster - Iniciação Ciêntifíca Voluntária
-
+### Distância dos dias de início e fim da coleta###
+![academico](data_hours.png)
 ### Palavras mais utilizadas
 ![academico](wordcloud_hawaii.png)
 ![academico](hashtags_hawaii.png)
