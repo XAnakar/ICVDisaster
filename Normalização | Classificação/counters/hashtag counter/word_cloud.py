@@ -2,7 +2,7 @@
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
 
-text = open('texts.csv','r').read()
+text = open('COL_TEXT.csv','r').read()
 wordcloud = WordCloud(max_font_size=100,width = 1520, height = 535).generate(text)
 plt.figure(figsize=(16,9))
 plt.imshow(wordcloud)

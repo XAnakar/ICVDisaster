@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-import json
+import json, csv
 
-saida = csv.writer(open('result.csv', 'w'))
+saida = csv.writer(open('COL_TEXT.csv', 'w'))
 
 fieldnames = ["text"]
 
