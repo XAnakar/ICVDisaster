@@ -1,27 +1,27 @@
 from twitter import *
 import sys, csv, json, time
-from last_id import  get_lastId
+from last_id import  get_Last_id
 
 latitude    =   00
 longitude   =   00    
 max_range   =   00 #Km²
 
-access_token        = 'chave'
-access_token_secret = 'chave'
+access_key          = 'chave'
+access_secret       = 'chave'
 consumer_key        = 'chave'
 consumer_secret     = 'chave'
 
-twitter = Twitter(auth = OAuth(access_token, access_token_secret,consumer_key, consumer_secret))
-Saida = open("DATA_SET.json","a")
+twitter = Twitter(auth = OAuth(access_key, access_secret,consumer_key, consumer_secret))
+Saida = open("DATA_MEXICO.json","a")
 
 result_count = 0
-last_id =  get_Lest_id("DATA_SET")
+last_id =  get_Last_id("DATA_MEXICO.json")
 
 while True:
     try:
-        query = twitter.search.tweets(q = "", geocode = "%f,%f,%dkm" % (latitude, longitude, max_range), count = 100, max_id = last_id)
+        query = twitter.search.tweets(q = "", geocode = "%f,%f,%dkm" % (latitude, longitude, max_range), count = 200, max_id = last_id)
     
-        for result in query["statuses"]:
+        for result  in query["statuses"]:
             if result["geo"]:
                 Data    = result["created_at"]
                 Name    = result["user"]["screen_name"]
