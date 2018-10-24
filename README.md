@@ -3,7 +3,7 @@
 ![academico](data_hours.png)
 ### Palavras mais utilizadas
 ![academico](wordcloud_hawaii.png)
-![academico](hashtags_hawaii.png)
+![academico](NEW-hashtags_hawaii.png)
 ### Scripts implementados para mineração de Tweets e análise dos dados.
                   
 
