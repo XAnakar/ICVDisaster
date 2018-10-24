@@ -1,43 +1,42 @@
 
-from preprocess import preprocess #Faz manter toda @  ou # ligado à um nome
+from preprocess import preprocess
 from collections import Counter
-import string, operator, json, chardet
-import matplotlib.pyplot as plt; plt.rcdefaults()
+import string
+import operator
+import json
+import chardet
+import matplotlib.pyplot as plt
+plt.rcdefaults()
 import numpy as np
 import matplotlib.pyplot as plt
+from tkinter import *
 
 objects = []
 performance = []
 
-with open('data_new.json', 'r') as f:
-    
-    count_all = Counter()
-    
-    for line in f:
-        
-        tweet = json.loads(line)
+with open('RESULT.json', 'r') as f:
 
+    count_all = Counter()
+    for line in f:
+        tweet = json.loads(line)
         terms_single = set(
             [
                 term for term in preprocess(tweet['text'])
             ]
         )
-        
         terms_hash = [
-            term.lower() for term in preprocess(tweet['text']) 
+            term.lower() for term in preprocess(tweet['text'])
             if term.startswith('#')
         ]
-    
         count_all.update(terms_hash)
 
     for tag, count in count_all.most_common(10):
-
         objects.append(tag)
         performance.append(count)
-        
+
 
 y_pos = np.arange(len(objects))
- 
+
 plt.bar(y_pos, performance, align='center', alpha=0.5)
 plt.xticks(y_pos, objects)
 plt.ylabel('Quantidade')
