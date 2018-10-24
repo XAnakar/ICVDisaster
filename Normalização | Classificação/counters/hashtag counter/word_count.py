@@ -6,11 +6,6 @@ import matplotlib.pyplot as plt; plt.rcdefaults()
 import numpy as np
 import matplotlib.pyplot as plt
 
-'''
-#pre-processing exemplo
-tweet = 'RT @marcobonzanini: just an example! :D http://example.com #NLP'
-print(preprocess(tweet))
-'''
 objects = []
 performance = []
 
