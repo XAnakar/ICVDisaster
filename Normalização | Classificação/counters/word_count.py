@@ -10,6 +10,8 @@ plt.rcdefaults()
 import numpy as np
 import matplotlib.pyplot as plt
 from tkinter import *
+from tqdm import tqdm
+
 
 objects = []
 performance = []
@@ -17,7 +19,7 @@ performance = []
 with open('RESULT.json', 'r') as f:
 
     count_all = Counter()
-    for line in f:
+    for line in tqdm(f):
         tweet = json.loads(line)
         terms_single = set(
             [

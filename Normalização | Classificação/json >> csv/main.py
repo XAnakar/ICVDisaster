@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import json, csv, sys
+from tqdm import tqdm
 
 saida = csv.writer(open('RESULT.csv', 'w'))
 fieldnames = ['id_str', 'screen_name', 'created_at','latitude','longitude','text']
@@ -17,11 +18,11 @@ def hit(query):
 
 def make_csv():
 
-    for line in open('DATASET.json'):
+    for line in tqdm(open('DATASET.json')):
         data = json.loads(line)
 
         if hit(data['text']):
-            print("Ocorrência!")
+            pass
         else:
             saida2.write(str(json.dumps(data))+"\n")
             geo   = data['geo'].replace("[","").replace("]","").split(',') 
