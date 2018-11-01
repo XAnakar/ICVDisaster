@@ -32,7 +32,9 @@ with open('RESULT.json', 'r') as f:
         ]
         count_all.update(terms_hash)
 
-    for tag, count in count_all.most_common(10):
+    for tag, count in count_all.most_common(50):
+
+        print(tag, count)
         objects.append(tag)
         performance.append(count)
 
