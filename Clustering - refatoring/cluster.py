@@ -18,7 +18,6 @@ Indentificares = [
     )
 ]
 
-
 for index in tqdm(set(Indentificares)):
 
     counts = 0
