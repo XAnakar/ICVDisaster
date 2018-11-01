@@ -10,3 +10,6 @@ for line in open("CLUSTER.json"):
 
     print(data)
 
+
+
+#cluster teminado :) <3
