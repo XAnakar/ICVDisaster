@@ -9,12 +9,8 @@ for line in open('RESULT.json'):
     data = json.loads(line)
 
     if mainz(bag_of_words, make_tokens(data['text'])):
-        print("PASSOU!")
-        c += 1
-    else:
-        print("NÃO PASSOU!")
-        print(make_tokens(data['text']))
-    
+        print(data['text'])
+        c += 1    
 
 bag_of_words.sort()
 print(bag_of_words)

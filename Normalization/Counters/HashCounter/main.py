@@ -31,7 +31,7 @@ with open('RESULT.json', 'r') as f:
         ]
         count_all.update(terms_hash)
 
-    for tag, count in count_all.most_common(50):
+    for tag, count in count_all.most_common(15):
 
         print(tag, count)
         objects.append(tag)
