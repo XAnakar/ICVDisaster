@@ -22,20 +22,18 @@ def make_csv():
         data = json.loads(line)
 
         # Caso o Tweet se repita ou se o usuário seja um perfil bot
-        if ignored(ignored_bots, data['nome']):
-            continue
+        if ignored(ignored_bots, data['nome']) == False:
+            saida2.write(str(json.dumps(data))+"\n")
+            geo = data['geo'].replace("[", "").replace("]", "").split(',')
 
-        saida2.write(str(json.dumps(data))+"\n")
-        geo = data['geo'].replace("[", "").replace("]", "").split(',')
-
-        saida.writerow([
-            data['id'],
-            data['nome'],
-            data['data'],
-            geo[0],
-            geo[1],
-            data['text']]
-        )
+            saida.writerow([
+                data['id'],
+                data['nome'],
+                data['data'],
+                geo[0],
+                geo[1],
+                data['text']]
+            )
 
 
 if __name__ == "__main__":

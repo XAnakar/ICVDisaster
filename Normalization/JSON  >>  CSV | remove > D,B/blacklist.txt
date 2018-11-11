@@ -22,4 +22,3 @@ espejomx
 USGS
 googuns_lulz
 INGVterremoti
-

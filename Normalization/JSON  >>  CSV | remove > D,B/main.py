@@ -23,10 +23,9 @@ def hit(query):
 
 def make_csv():
 
-    ignored_bots = [line.lower().replace("\n", "")
-                    for line in open('blacklist.txt')]
+    ignored_bots = [line.lower().replace("\n", "")  for line in open('blacklist.txt')]
 
-    for line in tqdm(open('DATA_MEXICO.json')):
+    for line in tqdm(open('DATASET.json')):
         data = json.loads(line)
         #ignored(ignored_bots, data['nome'])
         # Caso o Tweet se repita ou se o usuário seja um perfil bot
@@ -34,12 +33,12 @@ def make_csv():
             continue
 
         saida2.write(str(json.dumps(data))+"\n")
-        geo = data['geo']['coordinates']
+        geo = data['geo'].replace("[", "").replace("]", "").split(',')
 
         saida.writerow([
             data['id'],
-            data['user']['screen_name'],
-            data['created_at'],
+            data['nome'],
+            data['data'],
             geo[0],
             geo[1],
             data['text']]
