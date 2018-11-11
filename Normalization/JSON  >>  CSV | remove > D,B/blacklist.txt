@@ -4,6 +4,7 @@ eq_map_ww2
 tmj_
 Hazards_Network
 FourSeasonsJobs
+BigEarthquakes
 eq_map
 DepremDunya
 OptimisticVibe1
@@ -18,3 +19,7 @@ selphie6999
 Electric_Surfer
 YNVUCLOTHING
 espejomx
+USGS
+googuns_lulz
+INGVterremoti
+

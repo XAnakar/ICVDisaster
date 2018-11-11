@@ -4,6 +4,7 @@ import json
 import csv
 import sys
 from tqdm import tqdm
+from ignored import ignored
 
 saida = csv.writer(open('RESULT.csv', 'w'))
 fieldnames = ['id_str', 'screen_name',
@@ -12,34 +13,25 @@ saida.writerow(fieldnames)
 saida2 = open("RESULT.json", "w")
 
 
-def hit(query):
-    with open('RESULT.csv') as csvfile:
-        reader = csv.DictReader(csvfile)
-        for line in reader:
-            if line['text'] == query:
-                return True
-    return False
-
-
 def make_csv():
 
     ignored_bots = [line.lower().replace("\n", "")
                     for line in open('blacklist.txt')]
 
-    for line in tqdm(open('DATA_MEXICO.json')):
+    for line in tqdm(open('DATASET.json')):
         data = json.loads(line)
-        #ignored(ignored_bots, data['nome'])
+
         # Caso o Tweet se repita ou se o usuário seja um perfil bot
-        if hit(data['text']):
+        if ignored(ignored_bots, data['nome']):
             continue
 
         saida2.write(str(json.dumps(data))+"\n")
-        geo = data['geo']['coordinates']
+        geo = data['geo'].replace("[", "").replace("]", "").split(',')
 
         saida.writerow([
             data['id'],
-            data['user']['screen_name'],
-            data['created_at'],
+            data['nome'],
+            data['data'],
             geo[0],
             geo[1],
             data['text']]

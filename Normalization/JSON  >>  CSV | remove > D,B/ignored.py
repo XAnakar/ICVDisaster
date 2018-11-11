@@ -1,7 +1,7 @@
 
-def ignored(substring, strings):
+def ignored(substring, profile):
 
     for line in substring:
-        if strings.lower().find(line.lower()) is not -1:
+        if profile.lower().find(line.lower()) is not -1:
             return True
     return False
