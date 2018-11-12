@@ -5,7 +5,7 @@ from last_id import  get_Last_id
 
 latitude    =   00
 longitude   =   00
-max_range   =   00 #Km^2
+max_range   =   00
 
 consumer_key        = 'chave'
 consumer_secret     = 'chave'

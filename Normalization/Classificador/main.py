@@ -1,7 +1,4 @@
 import json
-import csv
-from preprocess import make_tokens
-from query import mainz
 
 bag_of_words = [line.lower().replace("\n", "") for line in open('base.txt')]
 bag_of_words.sort()
@@ -11,7 +8,7 @@ def classificador(arraytext, bag):
 
     for index in arraytext:
         for line in bag:
-            if line.lower() == index.lower():
+            if line.lower() == index.lower(): # Aqui seleciona as ocorrências de palavras do "base.txt"
                 print(line)
                 return True
     return False

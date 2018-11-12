@@ -4,7 +4,7 @@ from last_id import  get_Last_id
 
 latitude    =   00
 longitude   =   00    
-max_range   =   00 #Km²
+max_range   =   00
 
 access_key          = 'chave'
 access_secret       = 'chave'
