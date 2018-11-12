@@ -43,15 +43,9 @@ id_str,screen_name,created_at,latitude,longitude,text
 879412700786245632,DougTho89360871,Fri May 04 23:36:15 +0000 2018,19.65, -155.994,"Wow this just happened @ Kailua-Kona, Hawai"
 58383415,infogempa,Fri May 04 23:29:01 +0000 2018,19.3702, -155.0321,"Informasi gempa: M 6.9 - 16km SW of Leilani Estates, Hawaii uEpetO8nJ"
 3205578250,DepremTR,Fri May 04 23:19:33 +0000 2018,19.46, -155.06,"#FernAcres, #WestPuna, #Hawaii, Amerika Birleşik DevletleriMW 6.9 (46 dk önce)5km 19.46°N 155.06°W5 Mayıs 2018 0"
-44705716,USGSted,Fri May 04 23:09:40 +0000 2018,19.3127, -154.9975,"Prelim M5.8 earthquake Hawaii region, Hawaii May-4 22:32 UTC, update"
-94119095,USGSBigQuakes,Fri May 04 23:09:40 +0000 2018,19.3127, -154.9975,"Prelim M5.8 earthquake Hawaii region, Hawaii May-4 22:32 UTC, update"
-94119095,USGSBigQuakes,Fri May 04 23:09:40 +0000 2018,19.3127, -154.9975,"Prelim M5.8 earthquake Hawaii region, Hawaii May-4 22:32 UTC, update"
-131017900,BigEarthquakes,Fri May 04 23:08:39 +0000 2018,19.3702, -155.0321,"6.9 earthquake, 16km SW of Leilani Estates, Hawaii. 2018-05-04 12:32:55 at epicenter (35m ago, depth 5km)"
 83972205,NewEarthquake,Fri May 04 23:08:30 +0000 2018,19.3702, -155.0321,"6.9 earthquake, 16km SW of Leilani Estates, Hawaii. 2018-05-04 12:32:55 at epicenter (35m ago, depth 5km)"
 3205578250,DepremTR,Fri May 04 22:48:06 +0000 2018,19.39, -155.41,"#Kau, #Hawaii, Amerika Birleşik DevletleriMW 6.5 (15 dk önce)30km 19.39°N 155.41°W5 Mayıs 2018 01:32:57 +03"
 58383415,infogempa,Fri May 04 22:25:01 +0000 2018,19.3418, -155.032,"Informasi gempa: M 5.4 - 18km SW of Leilani Estates, Hawaii OB23JB59e"
-44705716,USGSted,Fri May 04 22:05:50 +0000 2018,19.3418, -155.032,"Prelim M5.7 earthquake Island of Hawaii, Hawaii May-4 21:32 UTC, update"
-94119095,USGSBigQuakes,Fri May 04 22:05:50 +0000 2018,19.3418, -155.032,"Prelim M5.7 earthquake Island of Hawaii, Hawaii May-4 21:32 UTC, update"
 29505672,clarklittle,Fri May 04 21:53:23 +0000 2018,19.4735, -154.92,"Major crack opens and lava comes out in Leilani estates Big Island, hawaii"
 18829708,rodney_o,Fri May 04 21:48:51 +0000 2018,19.7055, -155.086,"When in Hilo! @ Hilo, Hawai"
 83972205,NewEarthquake,Fri May 04 21:38:34 +0000 2018,19.338, -155.023,"5.6 earthquake, 18km SW of Leilani Estates, Hawaii. 2018-05-04 11:32:43 at epicenter (5m ago, depth 1km)"
@@ -171,6 +165,24 @@ id_str,screen_name,created_at,latitude,longitude,text
 34309691,PattyKWilliams,Fri Apr 27 18:40:17 +0000 2018,19.9431, -155.79,"Photo walking tour with Ranae Keane was fantastic, we learned so much! #hawaii #bigisland"
 205492157,chowbabylovin,Fri Apr 27 09:12:59 +0000 2018,19.573034, -155.962196,We actually flew to Hawaii just so we could see avengers infinity war at a reasonable hour
 1855154000,etk_143,Fri Apr 27 07:56:23 +0000 2018,19.5833, -155.969,"It's pouring hard in #kahaluu🌴 @ Kahaluu, Hawai"
+49753446,paderan,Sun Apr 29 07:08:14 +0000 2018,19.7055, -155.086,"Just what I need. #family #alcohol @ Hilo, Hawai"
+863528060,SoCalRestaurant,Sun Apr 29 05:56:14 +0000 2018,19.99474937, -155.82442103,Back one more time to Hawaii where Producer Andy is out at the @bichocofest at the @hapunaprince
+49664057,BeckBBeck,Sun Apr 29 05:01:13 +0000 2018,19.65, -155.994,"One way to clear the Islands of refuse. @ Kailua-Kona, Hawai"
+205492157,chowbabylovin,Sun Apr 29 04:14:37 +0000 2018,19.573034, -155.962196,The bears 🐻 are huge in Hawaii @ Regal Cinemas Keauhou 
+3222720818,JakeLlaguno,Sun Apr 29 04:01:32 +0000 2018,19.9431, -155.79,"The face you make when ________ @ Waikoloa, Hawai"
+29870938,MichaelVergona,Sun Apr 29 02:40:21 +0000 2018,19.95134158, -155.86034511,"The indoor beauty of Hawaii @ Fairmont Orchid, Hawai"
+739844468,AAgbayani,Sun Apr 29 02:30:15 +0000 2018,19.7055, -155.086,"Cheap yoga! @ Hilo, Hawai"
+3886513274,loftandlearn,Sun Apr 29 01:53:19 +0000 2018,19.65, -155.994,"Just posted a photo @ Kailua-Kona, Hawai"
+39596390,DeVante1,Sun Apr 29 01:32:33 +0000 2018,19.3831, -155.901,"Hey Peter look what I just got. 🤙🏾 @ Hookena, Hawai"
+450209584,Astro_Herv,Sun Apr 29 01:06:07 +0000 2018,19.82222, -155.47494,"The beautiful twin Keck telescopes sit above the clouds atop the Mauna Kea volcano, Hawaii."
+62921898,megantg,Sun Apr 29 00:53:48 +0000 2018,19.7055, -155.086,"ｌｉｖｅ ａｌ🌺ｈａ @ Hilo, Hawai"
+1160681300,LitoArkangel,Sun Apr 29 00:45:31 +0000 2018,19.50096531, -154.94456648,#braddahoods #daoriginalpunaboyz#kalapanaawaband #tropicallivingfestival @ Hawaii Academy of
+863528060,SoCalRestaurant,Sat Apr 28 22:18:23 +0000 2018,19.99474937, -155.82442103,"Now, thanks to the magic of Instagram, we’re teleported back to Hawaii for more from the"
+1160681300,LitoArkangel,Sat Apr 28 22:18:07 +0000 2018,19.50096531, -154.94456648,#artsandsciencescenterpuna #tropicallivingfestival @ Hawaii Academy of Arts and Science
+72129816,hexdxche,Sat Apr 28 21:19:06 +0000 2018,20.1111, -155.599,"Find different ways to create shapes. PC: @ruizjohn @ Waipio, Hawai"
+879412700786245632,DougTho89360871,Sat Apr 28 20:48:11 +0000 2018,19.64212273, -155.99364728,Shipping the scuba gear. No more diving in Hawaii for a while @ The
+149004401,mikeygomikey,Sat Apr 28 17:50:17 +0000 2018,19.52876974, -155.92468765,Just cruising along. 🐢🐠 @ Two Step Beach Hawai
+205492157,chowbabylovin,Sat Apr 28 07:48:26 +0000 2018,19.39923, -155.287,We saw a volcano 🌋 from far away. #volcano #bigisland #hawaii #vacation @ Hawai'i Volcanoes
 401257758,ArcturusFlyer,Tue May 29 01:06:45 +0000 2018,18.9121422, -155.6819064,South Point
 71276351,HI_physician,Tue May 29 01:06:02 +0000 2018,19.5208333, -155.9225,"Want to work at Envision? We're #hiring in #Kealakekua, HI! Click for details: I1eZmXjq9y"
 618294231,_grammar_,Mon May 28 23:34:00 +0000 2018,18.21528411, -155.82388267,"It is you, @DrCameronMurray, who could have posted “time, [you] are missing” instead. ‘Your’ is a possessive determiner; ‘you’ i"
@@ -189,7 +201,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 19560314,rockyrooo,Sun May 27 22:44:41 +0000 2018,19.6429, -155.998,"This place is awesome!!! And the food! Oh, Lord, such foood!!! - Drinking a Hanalei Island IPA by @KonaBrewingCo at"
 17858124,Aceman808,Sun May 27 21:27:10 +0000 2018,20.89399647, -156.4373074,"I'm at Kahului Airport in Kahului, H"
 31082700,ecokid_pt,Sun May 27 10:44:52 +0000 2018,19.74886852, -155.5265416,Late night commute. Beautiful crisp air. ☕️🤩 (@ Mauna Kea State Park in HI
-3048544857,googuns_lulz,Sun May 27 05:36:00 +0000 2018,17.98106734, -155.13275789,201dc5e39bcad63620cc36a6d1f5d3d83cb59b54fbc914dbba708460b368e047d48d7b8984e0ca39a82da39886f3bd619bd3194464ab25dbd77
 401257758,ArcturusFlyer,Sun May 27 04:43:44 +0000 2018,19.9135233, -155.8804424,TIL ABC Stores runs a supermarket in Waikoloa named Island Gourmet Market
 235344160,itsLeeOliver,Sun May 27 03:59:56 +0000 2018,20.87412071, -156.67860053,"Nice (@ Lahaina Pizza Co. in Lahaina, HI) YuLJS2eGe"
 103093717,iamcamjones,Sun May 27 02:10:12 +0000 2018,20.75241502, -155.98398475,"I'm at Red Sand Beach in Hana, HI w/ @ms_sarahlai AUzJAUq1y"
@@ -205,9 +216,7 @@ id_str,screen_name,created_at,latitude,longitude,text
 26387452,MarkNakashima,Fri May 25 21:52:31 +0000 2018,20.066448, -155.424414,I'm at Middle Road in HI UrCqvv5eQ
 26387452,MarkNakashima,Fri May 25 21:52:29 +0000 2018,20.88172105, -156.43705165,I'm at Hawai
 29691767,MissChunLii,Fri May 25 19:34:49 +0000 2018,19.0942227, -155.7919411,#NewProfilePic #IBeenOn #ChunL
-17858124,Aceman808,Fri May 25 17:15:51 +0000 2018,20.89399647, -156.4373074,"I'm at Kahului Airport in Kahului, H"
 763645296,miss_sound,Fri May 25 09:26:26 +0000 2018,19.5755022, -154.9625105,Don't go chasing waterfalls #Hawaii #bigislan
-3048544857,googuns_lulz,Fri May 25 09:22:00 +0000 2018,18.25554711, -157.03677009,99d39652723c35e220c994a23b9db0f625e6185d580304f6ca7cbd3c114f4761e5f8eba65e78fa672e5968ca47df55ec17d44bd8c2724c74dfd
 103093717,iamcamjones,Fri May 25 06:27:14 +0000 2018,20.91455508, -156.32317047,"I'm at Nuka in Haiku, HI w/ @ms_sarahla"
 15134332,jduman,Fri May 25 03:07:33 +0000 2018,20.89399647, -156.4373074,"Homeward bound! I’m soooooo tired. (@ Kahului Airport in Kahului, HI"
 103093717,iamcamjones,Fri May 25 02:49:14 +0000 2018,20.74935477, -156.43810169,"Yum! (@ Maui Brewing Company Tasting Room in Kihei, HI w/ @ms_sarahlai"
@@ -217,7 +226,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 15134332,jduman,Fri May 25 01:38:46 +0000 2018,20.9154716, -156.34915974,"Interesting stumble upon. (@ Old Maui High School in Paia, HI) sUO7AdUMx"
 122709351,dnimind,Fri May 25 01:05:29 +0000 2018,20.8868145, -156.47500182,"I'm at Queen K Mall Playground in Kahului, H"
 122709351,dnimind,Fri May 25 01:04:55 +0000 2018,20.88681354, -156.47493302,"I'm at Macy's Men's, Children's, Home in Kahului, H"
-48884463,jaywashradio,Thu May 24 22:15:15 +0000 2018,20.89399647, -156.4373074,"I'm at Kahului Airport in Kahului, H"
 19560314,rockyrooo,Thu May 24 21:51:19 +0000 2018,19.634, -155.99,Drinking a Fire Rock by @KonaBrewingCo @ Laverne's Sports Bar 
 31082700,ecokid_pt,Thu May 24 19:50:28 +0000 2018,19.75806308, -155.53431235,Change of command ceremony. A beautiful breezy day. 🇺🇸🤙🏽 (@ Pohakuloa Training Area in HI
 278646584,BrianPAlva,Thu May 24 14:43:06 +0000 2018,20.99723776, -156.65361422,"Maui was unforgettable!  Place where you can go an unwind, unplug and go on an adventure!...#maui #i♥travel #1"
@@ -225,7 +233,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 19560314,rockyrooo,Thu May 24 08:17:18 +0000 2018,19.5592, -155.966,Omggg - Drinking a Kua Bay IPA by @KonaBrewingCo @ Rays on the Bay  
 19560314,rockyrooo,Thu May 24 08:02:36 +0000 2018,19.5592, -155.966,So much yummm - Drinking a Hanalei Island IPA by @KonaBrewingCo @ Rays on the Bay  
 41440862,viliutahhomes,Thu May 24 07:41:26 +0000 2018,19.73457183, -156.04108185,Sitting on the plane ‘ewa’ewa @HawaiianAir heading to the motherland -so ready see my family an sleep! 🤙🏽 #Oahu #i
-3048544857,googuns_lulz,Thu May 24 05:51:01 +0000 2018,20.89464582, -154.63250624,fb56b50d1731cd2720a03e69eaefc6130045374eb9534ce1f61155a3bc4fd813a633eef5318945eaa8542c4c4d69428ad996310cf9ff3567e54
 1058710904,E2EJobs,Thu May 24 05:07:26 +0000 2018,19.7070942, -155.0884869,"Can you recommend anyone for this #job in #Hilo, HI? kHkSkZ2QYO #CustomerSer"
 14087803,jozimo,Thu May 24 04:45:10 +0000 2018,19.64521284, -155.99470781,"Early morning coffeeeeeee #earlier #today (@ Kona Coffee &amp; Tea in Kailua Kona, HI"
 14087803,jozimo,Thu May 24 03:26:59 +0000 2018,19.64294017, -155.9975679,"Good brew, good talks ... great friend #gideon (at @KonaBrewingCo. &amp; Brewpub in Kailua Kona, HI"
@@ -263,7 +270,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 790971008014364672,Keiki2808,Tue May 22 00:54:17 +0000 2018,19.7148432, -155.0644433,@tmobile @HCFHawaiiMahalo to Seisha &amp; Bryson at #Hiloholdingstrong and to Mahi and Celeste from the Red Cross for
 15134332,jduman,Mon May 21 23:37:13 +0000 2018,20.9339271, -156.35673248,"Quite possibly my favorite place in the world. At least so far... (@ Ho‘okipa Beach Park in Pāʻia, HI w/ @mikeduman"
 109533300,Omeeoh,Mon May 21 22:47:35 +0000 2018,19.92784763, -155.7872416,スーパーのお酒コーナー行ったら、こんなに日本酒並んでた！ (@ KTA Super Stores in HI) Nso3M9SJF
-3048544857,googuns_lulz,Mon May 21 21:48:00 +0000 2018,21.00186624, -156.42727547,9c60cdf1d2618ae920588a7fb4d6fce03e216f1a563de352c71e4c714a42f383cafa0ff587c49e52741b04c50bd338f8d9fd639f9eb9e6f8867
 109533300,Omeeoh,Mon May 21 21:43:44 +0000 2018,19.68692595, -156.01961323,"日本人の支配人が帰国する時にわざわざ購入して持って帰るクッキーだそうで購入してみた。 (@ Mrs. Barry's Kona Cookies in Kailua Kona, HI) q0bhSOKjJ"
 2861508283,Palms311,Mon May 21 20:56:50 +0000 2018,20.89, -156.45,@HawaiiNewsNow What is going on at Kahului Airport? Massive cloud of black smoke just appeared. #
 180155309,stomoma,Mon May 21 20:04:38 +0000 2018,19.73549893, -156.04078617,"これから日本に帰りまーす (@ Kona International Airport in Kailua-Kona, HI"
@@ -336,7 +342,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 33372075,AlxKawakami,Wed May 09 05:59:54 +0000 2018,19.8606, -155.652,Had a great weekend with the broskis and our lovely ladies to
 33372075,AlxKawakami,Wed May 09 05:59:54 +0000 2018,19.8606, -155.652,Had a great weekend with the broskis and our lovely ladies to
 249924919,hall476,Wed May 09 05:46:19 +0000 2018,19.471389, -155.908056,Here fishy fishy fishy fishy... #kealakekuabay #cookpoint
-1483621586,HappyMonkey604,Wed May 09 05:36:36 +0000 2018,20.88581, -156.68535,Just posted a video @ Old Lahaina Lua
 800110720213872641,MNahidC,Wed May 09 05:34:29 +0000 2018,19.8261359, -155.4722325,Final observation night at @NASA_IRTF.A little cloudy before sunset but the forecast may improve as the night wea
 310708166,SkylarPeterson,Wed May 09 05:16:10 +0000 2018,20.8808, -156.545,🌧 @ Iao Valle
 1483621586,HappyMonkey604,Wed May 09 05:12:14 +0000 2018,20.88581, -156.68535,I have the cutest dinner date!! 😁 @ Old Lahaina Lua
@@ -479,7 +484,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 20082649,jammaquino,Tue May 08 08:23:51 +0000 2018,19.4735, -154.92,A Leilani Estates resident who did not want to be identified carries
 45979358,DandyLyon74,Tue May 08 08:16:26 +0000 2018,19.4735, -154.92,"We said fair well to our home in Leilani Estates, Hawaii on Sunday."
 45979358,DandyLyon74,Tue May 08 08:16:23 +0000 2018,19.4735, -154.92,We felt blessed to be one of the last cars in to get most of our
-3048544857,googuns_lulz,Tue May 08 07:49:00 +0000 2018,19.99808817, -155.88096309,6bf92c2f53c3d90d206163112a4e3869485a7de2b859b295b04755ebfe4c1a25cb1ebaf9a378a95db7ff35a0fda9fe751155322bb4f3aa2eef7
 89758588,MariahMkay,Tue May 08 07:37:26 +0000 2018,20.89963, -156.684853,♋💙🦀🌊....#Maui #Hawaii #Cancer #Water #Watersign #Ocean #Beach
 3579470353,Kitchen_Daoist,Tue May 08 07:29:52 +0000 2018,19.9431, -155.79,Sometimes it's the #simplicity of #preparation that does it. Never
 113808021,MGRanch,Tue May 08 07:22:05 +0000 2018,19.9163848, -155.88579531,"Just posted a video @ Waikoloa Beach, Big Island Hawai"
@@ -563,7 +567,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 879412700786245632,DougTho89360871,Mon May 07 22:21:44 +0000 2018,19.6681194, -156.0001984,Just got called. The ticket was issued  @
 310708166,SkylarPeterson,Mon May 07 22:10:56 +0000 2018,20.94242269, -156.69104576,Just posted a photo @ The Westin Nanea Ocean Villa
 310708166,SkylarPeterson,Mon May 07 22:10:56 +0000 2018,20.94242269, -156.69104576,Just posted a photo @ The Westin Nanea Ocean Villa
-3048544857,googuns_lulz,Mon May 07 22:10:00 +0000 2018,19.66390165, -154.14928647,4069865da91a13c120a70bcb6fcc43daa7d090bf901f146e5d21ce35e9d5e38520aa33c3066c312a3e799390ad30871f177a3edde925a76cb5c
 34121751,nattikinz,Mon May 07 22:02:35 +0000 2018,20.8868816, -156.4774079,"Mahalo Hawaii, now back to the real world @ Island of Mau"
 81869902,itsmejehn,Mon May 07 21:57:54 +0000 2018,20.8775, -156.519,"Stare. @ Wailuku Heights, Hawai"
 27066901,Will_Greer,Mon May 07 21:55:00 +0000 2018,20.9967, -156.653,"Pouring rain?  Who cares. Workday 5K for the #mauihumanesociety @ Kapalua,"
@@ -637,9 +640,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 20118175,Nicknack784,Mon May 07 08:25:14 +0000 2018,20.68081139, -156.44266279,Perfect ending to Day 1 with jacknealy. #maui
 526121270,ShortiniPhotog,Mon May 07 08:11:00 +0000 2018,19.94138374, -155.86262757,"Champions Tennis circuit featuring legends Agassi, Sampras, McEnroe, Roddick,"
 526121270,ShortiniPhotog,Mon May 07 08:10:12 +0000 2018,19.94138374, -155.86262757,"Champions Tennis circuit featuring legends Agassi, Sampras, McEnroe, Roddick,"
-526121270,ShortiniPhotog,Mon May 07 08:09:35 +0000 2018,19.94138374, -155.86262757,"Champions Tennis circuit featuring legends Agassi, Sampras, McEnroe, Roddick,"
-526121270,ShortiniPhotog,Mon May 07 08:08:47 +0000 2018,19.94138374, -155.86262757,"Champions Tennis circuit featuring legends Agassi, Sampras, McEnroe, Roddick,"
-526121270,ShortiniPhotog,Mon May 07 08:07:06 +0000 2018,19.94138374, -155.86262757,"Champions Tennis circuit featuring legends Agassi, Sampras, McEnroe, Roddick,"
 21362404,Kurtkeller21,Mon May 07 08:06:20 +0000 2018,20.8868816, -156.4774079,"Not only being welcome with a lei around my neck, but also a ring around my"
 21362404,Kurtkeller21,Mon May 07 08:00:12 +0000 2018,20.8868816, -156.4774079,"Not only being welcome with a lei around my neck, but with a ring around my"
 285555348,RobertJohnCook,Mon May 07 07:57:00 +0000 2018,19.1076, -155.767,"Cottage By The Sea &amp; Land, gotta watch... I7ANDw7DnK @"
@@ -697,7 +697,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 184891549,bram_laenen,Mon May 07 01:56:43 +0000 2018,19.866667, -155.95,Life’s a beach! Crazy weather here on Big Island. From this morning till now
 21444798,CAMILMUSIC,Mon May 07 01:46:38 +0000 2018,19.64188, -155.99315,Just like #Life #Real is what you make it #Real is not just #negativity
 249924919,hall476,Mon May 07 01:43:21 +0000 2018,19.95134158, -155.86034511,A lazy afternoon... #hawaii #bigisland #fairmontorchid @hall476 @ Fairmont
-3048544857,googuns_lulz,Mon May 07 01:32:00 +0000 2018,18.34947164, -152.08868725,83801f21a843c9ce20b116cb679c42c125489e9c525f4f5339313545058027fbd5d6e5dbca2c486d06aecb9738a905867b05212c052b857ac92
 241679357,DamienAwai,Mon May 07 01:27:48 +0000 2018,20.94450248, -156.69169494,Wait for it... wait for it. Pretty soon #sunset time #vibe with
 56431420,freealyssa,Mon May 07 01:17:46 +0000 2018,19.5833, -155.969,"The colors and mountains and clouds of Oahu, for your viewing pleasure @"
 767585401787723776,Poggenpohl_HI,Mon May 07 01:12:57 +0000 2018,20.7591, -156.457,Checking out this amazing oceanfront #maui condo we designed several years
@@ -1053,7 +1052,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 335107618,sokuho_in,Fri May 04 23:37:41 +0000 2018,19.4, -155,■気象庁震源情報(08:35発表)：5日7:32頃発生。震源地は北東太平洋(ハワイ諸島、北緯19.4度、西経155度)、推定規模M6.9。震源の近傍で津波発生の可能性があります。この地震による日本への津波の影響はありません
 264077115,zishin32555,Fri May 04 23:36:54 +0000 2018,19.4, -155.0,【海外地震情報】2018年5月5日 7時32分頃、北東太平洋（ハワイ諸島）(北緯 19.4度 西経 155.0度)でM6.9の地震がありました。 震源の近傍で津波発生の可能性があります。この地震による日本への津波の影響はありません
 284871030,quaketelop,Fri May 04 23:35:43 +0000 2018,19.4, -155.0,【5日7:32】震源地は、ハワイ諸島で、地震の規模(マグニチュード)は6.9と推定されます。震源の近傍で津波発生の可能性があります。この地震による日本への津波の影響はありません。 詳しい震源の位置はハワイ諸
-121049123,INGVterremoti,Fri May 04 23:34:03 +0000 2018,19.65, -155.12,"#terremoto Mw 6.6 ore 00:32 IT del 05-05-2018 a Hawaiian Islands, United States [Land: .. Prof=10K"
 19878744,Mactard,Fri May 04 23:33:49 +0000 2018,20.8868816, -156.4774079,Welcome to the jungle. @ Island of Mau
 20082649,jammaquino,Fri May 04 23:31:47 +0000 2018,19.49309419, -154.94618483,Leilani Estates resident and evacuee Ron McLane sits outside the American Red
 22755516,HulasWaikiki,Fri May 04 23:31:21 +0000 2018,19.99806, -155.81602,Our thoughts and prayers with all of the people of the Big Island right
@@ -1160,7 +1158,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 14466397,MauiBenjamin,Fri May 04 10:48:50 +0000 2018,20.92862201, -156.26196259,HAPPY ALOHA MAUI FRIDAY! HAVE A FABULOUS NEW YEARS WEEKEND EVERYONE!
 15361984,DJSMOOK,Fri May 04 10:28:30 +0000 2018,20.88440585, -156.48942812,#Repost thematildas・・・Happy #StarWarsDay!May the fourth be with you.
 69333279,soyanne,Fri May 04 09:11:03 +0000 2018,19.63129159, -155.98301581,"Amazing night, unexpected blessing! Lou Engel"
-3048544857,googuns_lulz,Fri May 04 09:02:00 +0000 2018,18.55222038, -154.14316069,78abbdc8c0a2bc8d20b66ad0ecb829c3ea398d26faf3fa56f5e1f12a739957634d58a09a050a0b9b690af900bc79d0522015af224fe160155d2
 465058182,allkinecrossfit,Fri May 04 08:12:53 +0000 2018,20.90556, -156.48851,"Happy birthday, Brandon! Hope you had a wonderful and blessed day 🎉"
 111794345,Zachonbass,Fri May 04 08:04:41 +0000 2018,20.68377868, -156.4417521,#maui Happy heart ❤️ 🌴🤙🏾#Repost dianarudulph・・・My soul is at home here
 144416723,qball13z,Fri May 04 08:02:44 +0000 2018,20.749047, -156.45654,"Beasting with babe (@ Izakaya Genbe in Kihei, HI"
@@ -1252,7 +1249,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 2801552867,Hellocouplecups,Thu May 03 21:07:43 +0000 2018,19.618268, -155.950552,The language of flowers: Let your bouquet do the talking graceflowershawaii
 21823971,nellielaan,Thu May 03 21:03:20 +0000 2018,19.5071, -154.914,"Crater smoke in the distance, this vent is causing some trouble in my area,"
 69569140,miu_north,Thu May 03 21:03:13 +0000 2018,19.421097, -155.286762,Kīlaueaに動画を投稿しま
-3048544857,googuns_lulz,Thu May 03 21:03:01 +0000 2018,19.218329, -152.90676198,026e2e107a623fe7207d20e262091c86e110f940c907ffe0a5c7104646eb0be5965981c1d04ae3004a2ffd6b7c8c6f2d95feaf51f8ce496d918
 69569140,miu_north,Thu May 03 21:02:17 +0000 2018,19.39923, -155.287,Hawai'i Volcanoes National Parkに動画を投稿しま
 2468489083,TiffanyChurchi2,Thu May 03 20:59:07 +0000 2018,20.92854604, -156.69152371,Ka'anapali Beach Resort This was the 1st beach I visited in Maui. It is
 69569140,miu_north,Thu May 03 20:58:30 +0000 2018,19.4139, -155.246,高低差も凄いよー 場所: Kīlauea Ik
@@ -1577,7 +1573,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 14466397,MauiBenjamin,Tue May 01 17:39:14 +0000 2018,20.9332, -156.358,Maui Tuesday Outlook @ Ho‘okip
 14466397,MauiBenjamin,Tue May 01 17:36:11 +0000 2018,20.9332, -156.358,"Ho’okipa 2-3 ft., calm early Tuesday #surf #standuppaddleboarding"
 2910451639,twotonephoto,Tue May 01 17:23:53 +0000 2018,20.7591, -156.457,"""My mission in life is not merely to survive, but to thrive; and to do so"
-241679357,DamienAwai,Tue May 01 17:23:13 +0000 2018,20.99838, -156.65397,Join me tonight in #kapalua for #organicislandmusic #maui #mauimusician
 203303885,Db8_wifey,Tue May 01 17:23:08 +0000 2018,19.7055, -155.086,They finally came in yesterday &amp; I couldn’t be
 15246236,Randall_Shirley,Tue May 01 17:17:34 +0000 2018,19.39923, -155.287,🌋 Volcanoes National Park (on our island) has more than lava! Like a chance
 21274380,jordanblancoSF,Tue May 01 17:16:59 +0000 2018,21.28937436, -154.6875,#timetrialtuesday this week is a flashback to @ironmantri Hawaii 2013 | With
@@ -1841,7 +1836,6 @@ id_str,screen_name,created_at,latitude,longitude,text
 14466397,MauiBenjamin,Sun Apr 29 21:46:50 +0000 2018,20.8556, -156.65,"Just posted a photo @ Launiupoko, Hawai"
 24921845,thealohalife,Sun Apr 29 21:46:07 +0000 2018,20.752451, -156.458893,@thealohalife getting them dancing with his rockabilly “Carwheelah Ride” !! #MauiEarthDay
 14466397,MauiBenjamin,Sun Apr 29 21:43:25 +0000 2018,20.8861, -156.675,"Lahaina Sunday @ Lahaina, Hawai"
-3048544857,googuns_lulz,Sun Apr 29 21:31:00 +0000 2018,19.27747026, -153.22938319,becb2600e168f13120902b958fda8ad9e01aaa67eb0adbe89db8883600377b84e67ccd23f4cdcf860294f347569983f4407ecbbe44c54274dc8
 292718029,barkingbbq,Sun Apr 29 21:27:53 +0000 2018,20.94450248, -156.69169494,"For our last day, brunch at our favorite place #maui #vacation #hawaii @ Duke's Beach Hous"
 874362871274024960,lifted_karma,Sun Apr 29 21:27:01 +0000 2018,20.90656, -156.24314,I absolutely love my Switch Blaze vape battery!! This was taken at the Twin Falls in Maui!! It’s
 2337400094,KauCoffeeMill1,Sun Apr 29 21:25:12 +0000 2018,19.23809437, -155.47875964,Happening now and are there ever some onolicious recipes submitted! Come on down and join the

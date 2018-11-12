@@ -15,10 +15,9 @@ saida2 = open("RESULT.json", "w")
 
 def make_csv():
 
-    ignored_bots = [line.lower().replace("\n", "")
-                    for line in open('blacklist.txt')]
-
-    for line in tqdm(open('DATASET.json')):
+    ignored_bots = [line.lower().replace("\n", "") for line in open('blacklist.txt')]
+ 
+    for line in tqdm(open('RESULT_DUP.json')):
         data = json.loads(line)
 
         # Caso o Tweet se repita ou se o usuário seja um perfil bot

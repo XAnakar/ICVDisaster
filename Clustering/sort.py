@@ -1,15 +1,13 @@
 import json
 import csv
 
-
+count = 0
 for line in open("CLUSTER.json"):
 
     tweet = json.loads(line)
     data = tweet['geos']
-    data = sorted(data, key = lambda i: i[0])
-
-    print(data)
-
-
-
-#cluster teminado :) <3
+    data.sort(key=lambda k: k[0][4:19])
+    print('----------------------')
+    for line in data:
+        print(line)
+    print('----------------------')

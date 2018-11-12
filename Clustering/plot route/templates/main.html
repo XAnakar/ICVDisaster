@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Deleting a vertex</title>
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+        #map {
+            height: 100%;
+        }
+
+        /* Optional: Makes the sample page fill the window. */
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .delete-menu {
+            position: absolute;
+            background: white;
+            padding: 3px;
+            color: #666;
+            font-weight: bold;
+            border: 1px solid #999;
+            font-family: sans-serif;
+            font-size: 12px;
+            box-shadow: 1px 3px 3px rgba(0, 0, 0, .3);
+            margin-top: -10px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        .delete-menu:hover {
+            background: #eee;
+        }
+    </style>
+
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAwlybqhM8P1CsYnMmvmBmnwHr8j_GaoNY"></script>
+
+
+
+    <script>
+        function initialize() {
+            var mapOptions = {
+                zoom: 9,
+                center: new google.maps.LatLng(19.648730, -155.486090),
+                mapTypeId: 'terrain'
+            };
+            //Começo
+            var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+
+            function getRandomColor() {
+                var letters = '0123456789ABCDEF';
+                var color = '#';
+                for (var i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
+            }
+
+            {% for line in data %}
+                var flightPlanCoordinates = [];
+                {% for index in line[0] %}
+                
+                    lat = "{{ index[1] }}"
+                    lng = "{{ index[2] }}"
+
+                    flightPlanCoordinates.push(new google.maps.LatLng(lat, lng));
+
+                {% endfor %}
+
+                var flightPath = new google.maps.Polyline({
+                    path: flightPlanCoordinates,
+                    editable: true,
+                    strokeColor: '{{ line[1] }}',
+                    strokeOpacity: 1.0,
+                    strokeWeight: 2,
+                    map: map
+                });
+
+            {% endfor %}
+        }
+
+
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+</head>
+
+<body>
+    <div id="map"></div>
+</body>
+
+</html>
