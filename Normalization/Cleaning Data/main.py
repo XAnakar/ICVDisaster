@@ -6,8 +6,7 @@ import sys
 from tqdm import tqdm
 
 saida = csv.writer(open('RESULT.csv', 'w'))
-fieldnames = ['id_str', 'screen_name',
-              'created_at', 'latitude', 'longitude', 'text']
+fieldnames = ['id_str', 'screen_name','created_at', 'latitude', 'longitude', 'text']
 saida.writerow(fieldnames)
 saida2 = open("RESULT.json", "w")
 
