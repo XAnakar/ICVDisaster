@@ -32,8 +32,8 @@ with open('RESULT.csv') as csvfile:
         )
         count_all.update(terms_single)
 
-    for tag, count in count_all.most_common(15):
-        if len(tag) >= 2: #tem que considerar o tamanho mpinimo de uma palavra da lingua inglesa
+    for tag, count in count_all.most_common(25):
+        if len(tag) > 2: #tem que considerar o tamanho minimo de uma palavra da lingua inglesa
             objects.append(tag)
             performance.append(count)
 
