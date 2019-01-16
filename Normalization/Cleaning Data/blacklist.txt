@@ -6,10 +6,13 @@ Hazards_Network
 FourSeasonsJobs
 BigEarthquakes
 eq_map
+NewEarthquake
+educaciondecr
 DepremDunya
 OptimisticVibe1
 thesnorkelstore
 bot
+infogempa
 LastQuake
 Quake_
 HiloHawaii_

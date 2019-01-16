@@ -34,6 +34,7 @@ with open('RESULT.csv') as csvfile:
 
     for tag, count in count_all.most_common(25):
         if len(tag) > 2: #tem que considerar o tamanho minimo de uma palavra da lingua inglesa
+            print(tag , count)
             objects.append(tag)
             performance.append(count)
 
