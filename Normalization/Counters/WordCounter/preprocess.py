@@ -34,8 +34,6 @@ def make_tokens(text):
         regex_clean(text) #Vai tirar algumas impurezas do texto, como números e alguns simbolos
     ) 
     
-    filtered_sentence = [w for w in word_tokens if not w in stop_words] 
-    
     filtered_sentence = [] 
     
     for w in word_tokens: 

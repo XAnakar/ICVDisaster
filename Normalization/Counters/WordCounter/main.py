@@ -3,7 +3,7 @@ from preprocess import make_tokens
 from collections import Counter
 import string
 import operator
-import json, csv
+import csv
 import chardet
 import matplotlib.pyplot as plt
 plt.rcdefaults()
@@ -24,17 +24,13 @@ with open('RESULT.csv') as csvfile:
 
     for line in tqdm(reader):
         tweet = line['text']
-        terms_single = set(
-
-            [
-                term for term in make_tokens(tweet)
-            ]
-        )
+        terms_single = set(make_tokens(tweet))
+        print(terms_single)
         count_all.update(terms_single)
 
-    for tag, count in count_all.most_common(25):
-        if len(tag) > 2: #tem que considerar o tamanho minimo de uma palavra da lingua inglesa
-            print(tag , count)
+    for tag, count in count_all.most_common(20):
+       
+        if len(tag) > 2:
             objects.append(tag)
             performance.append(count)
 
