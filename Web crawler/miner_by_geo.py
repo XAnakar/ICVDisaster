@@ -2,9 +2,9 @@ from twitter import *
 import sys, csv, json, time
 from last_id import  get_Last_id
 
-latitude    =   00
-longitude   =   00    
-max_range   =   00
+latitude    =   32.862827
+longitude   =  -85.378357 
+max_range   =   650
 
 access_key          = 'chave'
 access_secret       = 'chave'
@@ -15,11 +15,11 @@ twitter = Twitter(auth = OAuth(access_key, access_secret,consumer_key, consumer_
 Saida = open("DATA_MEXICO.json","a")
 
 result_count = 0
-last_id =  get_Last_id("DATA_MEXICO.json")
+last_id =  get_Last_id("DATA.json")
 
 while True:
     try:
-        query = twitter.search.tweets(q = "", geocode = "%f,%f,%dkm" % (latitude, longitude, max_range), count = 200, max_id = last_id)
+        query = twitter.search.tweets(q = "", geocode = "%f,%f,%dkm" % (latitude, longitude, max_range), count = 100, max_id = last_id)
     
         for result  in query["statuses"]:
             if result["geo"]:
