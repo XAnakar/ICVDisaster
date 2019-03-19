@@ -2,20 +2,23 @@ from twitter import *
 import sys, csv, json, time
 from last_id import  get_Last_id
 
-latitude    =   32.862827
-longitude   =  -85.378357 
-max_range   =   650
+latitude    =   32.617522
+longitude   =  -85.376454 
+max_range   =   250
 
-access_key          = 'chave'
-access_secret       = 'chave'
-consumer_key        = 'chave'
-consumer_secret     = 'chave'
 
-twitter = Twitter(auth = OAuth(access_key, access_secret,consumer_key, consumer_secret))
-Saida = open("DATA_MEXICO.json","a")
+
+consumer_key = ""
+consumer_secret = ""
+access_token_key = ""
+access_token_secret = ""
+
+
+twitter = Twitter(auth = OAuth(access_token_key, access_token_secret,consumer_key, consumer_secret))
+Saida = open("DATA2.json","a")
 
 result_count = 0
-last_id =  get_Last_id("DATA.json")
+last_id =  get_Last_id("DATA2.json")
 
 while True:
     try:

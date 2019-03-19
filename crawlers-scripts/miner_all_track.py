@@ -8,6 +8,7 @@ access_token = "chave"
 access_token_secret = "chave"
 consumer_key = "chave"
 consumer_secret = "chave"
+
 tweets_file = open("DATA.json", "a")
 
 

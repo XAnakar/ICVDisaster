@@ -5,12 +5,12 @@ import math
 
 latitude    =   00
 longitude   =   00
-max_range   =   99999999999999999999999999999999999999999999999
+max_range   =   00
 
-consumer_key = "lD7L0yp96HNaW9KptvAobmLQm"
-consumer_secret = "8NMFdjYGLmFx2MpNCbUlGkWyVx70GwLusk20iRP0cdfoLBa4Uf"
-access_token_key = "1096656986530373632-hj8hJuiBZoSXAvAMpzvvIPDBgA5qis"
-access_token_secret = "putuIQD8IGFAhiEshHoANO5pns7WA7WYA1U6edwxXI3gC"
+consumer_key = ""
+consumer_secret = ""
+access_token_key = ""
+access_token_secret = ""
 
 
 twitter = Twitter(auth = OAuth(access_token_key, access_token_secret,consumer_key, consumer_secret))
