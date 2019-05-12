@@ -3,9 +3,9 @@ from twitter import *
 import sys, csv, json, time
 from last_id import  get_Last_id
 
-latitude    =   32.617522
-longitude   =  -85.376454 
-max_range   =   250
+latitude    =   0
+longitude   =  	0
+max_range   =   0
 
 
 consumer_key = ""
